@@ -1,0 +1,49 @@
+apiVersion: v1
+entries:
+  mysql:
+  - appVersion: 5.7.14
+    created: 2018-09-25T15:17:33.232866959Z
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system.
+    digest: 3c381c0d85b11893d3c912e103d26b61164240ac1986af1bd6460d61b4306c0b
+    engine: gotpl
+    home: https://www.mysql.com/
+    icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
+    keywords:
+    - mysql
+    - database
+    - sql
+    maintainers:
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: viglesias@google.com
+      name: viglesiasce
+    name: mysql
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/docker-library/mysql
+    urls:
+    - cxx/mysql-0.10.1.tgz
+    version: 0.10.1
+  phpmyadmin:
+  - appVersion: 4.8.2
+    created: 2018-09-25T15:17:33.234041324Z
+    description: phpMyAdmin is an mysql administration frontend
+    digest: 1762f4d795bc971a6480783b8954ca7f808f91a9fb70eca422e5e1a14fea628b
+    engine: gotpl
+    home: https://www.phpmyadmin.net/
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PhpMyAdmin_logo.svg/800px-PhpMyAdmin_logo.svg.png
+    keywords:
+    - mariadb
+    - mysql
+    - phpmyadmin
+    maintainers:
+    - email: containers@bitnami.com
+      name: bitnami-bot
+    name: phpmyadmin
+    sources:
+    - https://github.com/bitnami/bitnami-docker-phpmyadmin
+    urls:
+    - cxx/phpmyadmin-1.1.0.tgz
+    version: 1.1.0
+generated: 2018-09-25T15:17:33.230496693Z
